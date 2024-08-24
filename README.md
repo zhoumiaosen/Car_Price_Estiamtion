@@ -12,9 +12,9 @@ car_price_prediction/
 ├── models/
 │   ├── car_price_model.pth         	# Saved model state dictionary
 │   ├── scaler_X.pkl                	# Saved X scaler (MinMaxScaler for features)
-│   └── scaler_y.pkl                	# Saved y scaler (MinMaxScaler for target)
-│   └── Model_encoder.pkl         	# Saved encoder (encoder for car model)
-│   └── Brand_encoder.pkl            	# Saved encoder (encoder for car brand)
+│   ├── scaler_y.pkl                	# Saved y scaler (MinMaxScaler for target)
+│   ├── Model_encoder.pkl         	# Saved encoder (encoder for car model)
+│   ├── Brand_encoder.pkl            	# Saved encoder (encoder for car brand)
 │   └── Status.pkl              	# Saved encoder (encoder for car status)
 │
 ├── src/
@@ -26,8 +26,9 @@ car_price_prediction/
 │   └── Used_Car_Price_Estimation.ipynb # Jupyter notebook for data exploration and preprocessing
 │
 └── README.md                       # Project overview and instructions
+```
 
-**## Requirements**
+## Requirements
 
 - Python 3.7+
 - PyTorch
@@ -40,3 +41,4 @@ You can install the necessary packages using the following command:
 
 ```bash
 pip install torch scikit-learn pandas joblib
+```
