@@ -27,19 +27,3 @@ car_price_prediction/
 │   └── Used_Car_Price_Estimation.ipynb # Jupyter notebook for data exploration and preprocessing
 │
 └── README.md                       # Project overview and instructions
-
-## Requirements
-
-- Python 3.7+
-- PyTorch
-- scikit-learn
-- pandas
-- joblib (optional, for saving and loading scalers)
-- Jupyter Notebook (optional, for data exploration)
-
-You can install the necessary packages using the following command:
-
-```bash
-pip install torch scikit-learn pandas joblib
-
-
