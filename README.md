@@ -3,8 +3,7 @@
 This project aims to predict the price of used cars based on various features like brand, model, year, mileage, and status. The prediction model is built using a neural network in PyTorch, and the data preprocessing is handled with scikit-learn.
 
 ## Project Structure
-
-
+```plaintext
 car_price_prediction/
 │
 ├── data/
@@ -27,9 +26,8 @@ car_price_prediction/
 │   └── Used_Car_Price_Estimation.ipynb # Jupyter notebook for data exploration and preprocessing
 │
 └── README.md                       # Project overview and instructions
-```plaintext
 
-## Requirements
+**## Requirements**
 
 - Python 3.7+
 - PyTorch
