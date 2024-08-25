@@ -82,7 +82,7 @@ This script will:
 
 ### 4. Predict Results
 Inputdata:
-<img src="assets/images/inputdata.png" alt="Diagram" width="50">
-![Screenshot](assets/images/inputdata.png)
+<img src="assets/images/inputdata.png" alt="Diagram" width="100">
+
 Results:
-<img src="assets/images/results.png" alt="Diagram" width="100">
+<img src="assets/images/results.png" alt="Diagram" width="200">
