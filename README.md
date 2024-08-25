@@ -80,3 +80,6 @@ This script will:
 - Preprocess the input data in the same way as the training data.
 - Output the predicted price for the given car features.
 
+### 4. Predict Results
+![Screenshot](inputdata.png)
+![Screenshot](results.png)
