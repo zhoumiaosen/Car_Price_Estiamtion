@@ -42,3 +42,61 @@ You can install the necessary packages using the following command:
 ```bash
 pip install torch scikit-learn pandas joblib
 ```
+
+## How to Run
+
+### 1. Data Exploration
+
+Before training the model, you can explore the dataset using the Jupyter notebook provided:
+
+```bash
+jupyter notebook notebook/Used_Car_Price_Estimation.ipynb
+```
+
+### 2. Training the Model
+To train the model, run the train.py script:
+
+```bash
+python src/train.py
+```
+
+Certainly! Below is the How to Run section formatted in Markdown code:
+
+markdown
+复制代码
+## How to Run
+
+### 1. Data Exploration
+
+Before training the model, you can explore the dataset using the Jupyter notebook provided:
+
+```bash
+jupyter notebook notebooks/car_price_exploration.ipynb
+```
+
+### 2. Training the Model
+To train the model, run the train.py script:
+
+```bash
+python src/train.py
+```
+This script will:
+
+- Load the data from data/car.csv.
+- Encode categorical variables and normalize the features using MinMaxScaler.
+- Train a neural network model using PyTorch.
+- Save the trained model and scalers in the models/ directory.
+
+### 3. Making Predictions
+To make predictions using the trained model, run the predict.py script:
+
+```bash
+python src/predict.py
+```
+
+This script will:
+
+- Load the saved model and scalers from the models/ directory.
+- Preprocess the input data in the same way as the training data.
+- Output the predicted price for the given car features.
+
