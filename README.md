@@ -71,9 +71,9 @@ This script will:
 ### 3. Model Architecture
 The model is a simple feedforward neural network with the following layers:
 
-Input Layer: Matches the number of features after preprocessing (5 in this project).
-Hidden Layers: Two hidden layers with ReLU activation.
-Output Layer: A single neuron with ReLU to predict the price.
+-**Input Layer:** Matches the number of features after preprocessing (5 in this project).
+-**Hidden Layers:** Two hidden layers with ReLU activation.
+-**Output Layer:** A single neuron with ReLU to predict the price.
 
 ### 4. Saving and Loading the Model
 - **Model:** The trained model's state dictionary is saved as car_price_model.pth in the models/ directory.
