@@ -120,15 +120,15 @@ Results:<br>
 
 
 ## Next Steps
-**Model Tuning:**
+- **Model Tuning:**
  Experiment with different neural network architectures and hyperparameters to improve model performance.
-**Feature Engineering:**
+- **Feature Engineering:**
  Consider adding more features or transforming existing ones to capture more information from the data.
-**Evaluation:** 
+- **Evaluation:** 
 Implement more comprehensive evaluation metrics, like MAE or R^2, to better assess the model's performance.
-**Model Deploy:**
+- **Model Deploy:**
  Deploy the trained model to a website for user interaction and real-time predictions.
-**Data Expansion:** 
+- **Data Expansion:** 
  Gather and integrate additional datasets to enhance the model’s accuracy and robustness.
 
 ## Contributing
