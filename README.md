@@ -7,15 +7,15 @@ This project aims to predict the price of used cars based on various features li
 car_price_prediction/
 │
 ├── data/
-│   └── cars.csv                     	    # Original dataset
+│   └── cars.csv                     	  # Original dataset
 │
 ├── models/
-│   ├── car_price_model.pth         	    # Saved model state dictionary
-│   ├── scaler_X.pkl                	    # Saved X scaler (MinMaxScaler for features)
-│   ├── scaler_y.pkl                	    # Saved y scaler (MinMaxScaler for target)
-│   ├── Model_encoder.pkl         	      # Saved encoder (encoder for car model)
-│   ├── Brand_encoder.pkl            	    # Saved encoder (encoder for car brand)
-│   └── Status.pkl              	        # Saved encoder (encoder for car status)
+│   ├── car_price_model.pth         	  # Saved model state dictionary
+│   ├── scaler_X.pkl                	  # Saved X scaler (MinMaxScaler for features)
+│   ├── scaler_y.pkl                	  # Saved y scaler (MinMaxScaler for target)
+│   ├── Model_encoder.pkl         	  # Saved encoder (encoder for car model)
+│   ├── Brand_encoder.pkl            	  # Saved encoder (encoder for car brand)
+│   └── Status.pkl              	  # Saved encoder (encoder for car status)
 │
 ├── src/
 │   ├── train.py                          # Script for training the model
