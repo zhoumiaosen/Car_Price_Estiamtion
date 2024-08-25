@@ -71,9 +71,9 @@ This script will:
 ### 3. Model Architecture
 The model is a simple feedforward neural network with the following layers:
 
--**Input Layer:** Matches the number of features after preprocessing (5 in this project).
--**Hidden Layers:** Two hidden layers with ReLU activation.
--**Output Layer:** A single neuron with ReLU to predict the price.
+- **Input Layer:** Matches the number of features after preprocessing (5 in this project).
+- **Hidden Layers:** Two hidden layers with ReLU activation.
+- **Output Layer:** A single neuron with ReLU to predict the price.
 
 ### 4. Saving and Loading the Model
 - **Model:** The trained model's state dictionary is saved as car_price_model.pth in the models/ directory.
@@ -121,16 +121,11 @@ Results:<br>
 
 
 ## Next Steps
-- **Model Tuning:**
- Experiment with different neural network architectures and hyperparameters to improve model performance.
-- **Feature Engineering:**
- Consider adding more features or transforming existing ones to capture more information from the data.
-- **Evaluation:** 
-Implement more comprehensive evaluation metrics, like MAE or R^2, to better assess the model's performance.
-- **Model Deploy:**
- Deploy the trained model to a website for user interaction and real-time predictions.
-- **Data Expansion:** 
- Gather and integrate additional datasets to enhance the model’s accuracy and robustness.
+- **Model Tuning:** Experiment with different neural network architectures and hyperparameters to improve model performance.
+- **Feature Engineering:** Consider adding more features or transforming existing ones to capture more information from the data.
+- **Evaluation:** Implement more comprehensive evaluation metrics, like MAE or R^2, to better assess the model's performance.
+- **Model Deploy:** Deploy the trained model to a website for user interaction and real-time predictions.
+- **Data Expansion:** Gather and integrate additional datasets to enhance the model’s accuracy and robustness.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request to contribute to the project.
