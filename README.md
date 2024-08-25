@@ -81,5 +81,8 @@ This script will:
 - Output the predicted price for the given car features.
 
 ### 4. Predict Results
+Inputdata:
+<img src="assets/images/inputdata.png" alt="Diagram" width="50">
 ![Screenshot](assets/images/inputdata.png)
-![Screenshot](assets/images/results.png)
+Results:
+<img src="assets/images/results.png" alt="Diagram" width="100">
