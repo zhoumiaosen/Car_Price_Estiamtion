@@ -76,9 +76,9 @@ Hidden Layers: Two hidden layers with ReLU activation.
 Output Layer: A single neuron with ReLU to predict the price.
 
 ### 4. Saving and Loading the Model
-Model: The trained model's state dictionary is saved as car_price_model.pth in the models/ directory.
-Scalers: The MinMaxScaler objects used to normalize features (scaler_X.pkl) and the target variable (scaler_y.pkl) are also saved in the models/ directory.
-Encoder: The Encoder for model (Model_encoder.pkl), brand (Brand_encoder.pkl), and status (Status_encoder.pkl) are all saved in the models/ directory.
+- **Model:** The trained model's state dictionary is saved as car_price_model.pth in the models/ directory.
+- **Scalers:** The MinMaxScaler objects used to normalize features (scaler_X.pkl) and the target variable (scaler_y.pkl) are also saved in the models/ directory.
+- **Encoder:** The Encoder for model (Model_encoder.pkl), brand (Brand_encoder.pkl), and status (Status_encoder.pkl) are all saved in the models/ directory.
 
 To load the model scalers, and encoder:
 ```bash
