@@ -84,6 +84,7 @@ To load the model scalers, and encoder:
 ```bash
 import torch
 import joblib
+
 # Load the model
 model_load = torch.load(car_price_model.pth, map_location=device)
 model_load.eval()
