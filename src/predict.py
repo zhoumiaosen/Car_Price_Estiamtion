@@ -83,12 +83,12 @@ def predict_price(model, X_tensor, scaler_y, device):
 
 if __name__ == "__main__":
     # Define file paths
-    model_path = 'car_price_model_full.pth'
-    scaler_X_path = 'scaler_X.pkl'
-    scaler_y_path = 'scaler_y.pkl'
-    Brand_encoder_path = 'Brand_encoder.pkl'
-    Model_encoder_path = 'Model_encoder.pkl'
-    Status_encoder_path = 'Status_encoder.pkl'
+    model_path = 'models/car_price_model_full.pth'
+    scaler_X_path = 'models/scaler_X.pkl'
+    scaler_y_path = 'models/scaler_y.pkl'
+    Brand_encoder_path = 'models/Brand_encoder.pkl'
+    Model_encoder_path = 'models/Model_encoder.pkl'
+    Status_encoder_path = 'models/Status_encoder.pkl'
 
     # Example data
     new_data = pd.DataFrame({

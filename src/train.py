@@ -39,7 +39,7 @@ class PricePredictionModel(nn.Module):
 """#Data Wash"""
 
 # Load data
-df = pd.read_csv('cars.csv', encoding='utf-16')
+df = pd.read_csv('data/cars.csv', encoding='utf-16')
 # Change Mileage NaN to 0 if Status is new
 df['Mileage'] = df.apply(lambda row: 0 if (pd.isna(row['Mileage']) and row['Status'] == 'New') else row['Mileage'], axis=1)
 # Drop rows where 'Status' is 'Used' and 'Mileage' is NaN
@@ -61,9 +61,9 @@ df['Model'] = Model_encoder.fit_transform(df['Model'])
 Status_encoder = LabelEncoder()
 df['Status'] = Status_encoder.fit_transform(df['Status'])
 # Save Encoder: Brand_encoder, Model_encoder, Status_encoder
-joblib.dump(Brand_encoder, 'Brand_encoder.pkl')
-joblib.dump(Model_encoder, 'Model_encoder.pkl')
-joblib.dump(Status_encoder, 'Status_encoder.pkl')
+joblib.dump(Brand_encoder, 'models/Brand_encoder.pkl')
+joblib.dump(Model_encoder, 'models/Model_encoder.pkl')
+joblib.dump(Status_encoder, 'models/Status_encoder.pkl')
 
 """#Normalize All Features & Target"""
 
@@ -80,8 +80,8 @@ scaler_y = MinMaxScaler()
 y = scaler_y.fit_transform(y.reshape(-1, 1)).flatten()  # Flatten to match original shape
 
 # Save Scaler: scaler_X & scaler_y
-joblib.dump(scaler_X, 'scaler_X.pkl')
-joblib.dump(scaler_y, 'scaler_y.pkl')
+joblib.dump(scaler_X, 'models/scaler_X.pkl')
+joblib.dump(scaler_y, 'models/scaler_y.pkl')
 
 """# Model Build"""
 
